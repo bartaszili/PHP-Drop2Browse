@@ -22,9 +22,9 @@ GNU GPLv3, https://www.gnu.org/licenses/gpl.txt
 
 ## News
 
-**14.07.2017: New release v0.2.10a
+**14.07.2017: New release v0.2.10a**
 - new filtering function
-- code improvements to pass w3school validation**
+- code improvements to pass w3school validation
 
 **13.06.2017: Just released v0.2.2 on github**
 
@@ -38,6 +38,7 @@ GNU GPLv3, https://www.gnu.org/licenses/gpl.txt
 -   Sortable columns
 -   Manually editable menu to link your favourite little tools
 -   Name, size, date, permissions, user, group information displayed
+-   Fully hackable
 
 ## Requirements
 
