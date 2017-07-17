@@ -22,7 +22,7 @@ GNU GPLv3, https://www.gnu.org/licenses/gpl.txt
 
 ## News
 
-**14.07.2017: New release v0.2.10a**
+**17.07.2017: New release v0.2.11**
 - new filtering function
 - code improvements to pass w3school validation
 
