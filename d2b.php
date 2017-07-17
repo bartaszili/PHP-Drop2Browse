@@ -1,6 +1,6 @@
 <?php
 
-/*** PHP Drop2Browse v0.2.11a (17/07/2017) by Szilárd Barta (Free Software, GNU GPLv3 License) - bartaszili (at) gmail (dot) com ***/
+/*** PHP Drop2Browse v0.2.11 (17/07/2017) by Szilárd Barta (Free Software, GNU GPLv3 License) - bartaszili (at) gmail (dot) com ***/
 /*** License: https://www.gnu.org/licenses/gpl.txt ***/
 /*** Includes: jQuery v3.2.1, Bootstrap v3.3.7  ***/
 /*** Description: Single file - drop in - webserver's Document Root browser with responsive design. ***/
@@ -8,7 +8,7 @@
 
 $debug = array(); // collects varibles values
 $protection = 0; // initialize protection from outside hacks
-$version = 'v0.2.11a (17/07/2017)';
+$version = 'v0.2.11 (17/07/2017)';
 
 /* change this to display variables for troubleshooting */
 $troubleshooting = false;
