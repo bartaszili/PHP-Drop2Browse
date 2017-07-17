@@ -899,7 +899,7 @@ if ($alert == true) {
 			<div class="container theme-showcase">
 				<nav class="navbar navbar-default navbar-static-bottom">
 					<div class="container position_footer">
-						<small><a href="https://github.com/bartaszili/PHP-Drop2Browse" target="_blank">PHP Drop2Browse</a><span tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-container="body" data-content="<a href='mailto:bartaszili@gmail.com'>bartaszili@gmail.com</a>"> &nbsp; <small class="text-muted"><?php echo $version; ?></small> &nbsp; by&nbsp;<u>Szil&aacute;rd&nbsp;Barta</u> &nbsp; <small class="text-muted">(Free&nbsp;software, </span><a href="https://www.gnu.org/licenses/gpl.txt" target="_blank">License</a>)</small></small>
+						<small><a href="https://github.com/bartaszili/PHP-Drop2Browse" target="_blank">PHP Drop2Browse</a> &nbsp; <small class="text-muted"><?php echo $version; ?></small> &nbsp; by&nbsp;<span tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-container="body" data-content="<a href='mailto:bartaszili@gmail.com'>bartaszili@gmail.com</a>"><u>Szil&aacute;rd&nbsp;Barta</u></span> &nbsp; <small class="text-muted">(Free&nbsp;software, <a href="https://www.gnu.org/licenses/gpl.txt" target="_blank">License</a>)</small></small>
 					</div>
 				</nav>
 			</div>
