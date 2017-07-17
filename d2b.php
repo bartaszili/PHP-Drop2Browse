@@ -1,6 +1,6 @@
 <?php
 
-/*** PHP Drop2Browse v0.2.11 (17/07/2017) by Szilárd Barta (Free Software, GNU GPLv3 License) - bartaszili (at) gmail (dot) com ***/
+/*** PHP Drop2Browse v0.2.11a (17/07/2017) by Szilárd Barta (Free Software, GNU GPLv3 License) - bartaszili (at) gmail (dot) com ***/
 /*** License: https://www.gnu.org/licenses/gpl.txt ***/
 /*** Includes: jQuery v3.2.1, Bootstrap v3.3.7  ***/
 /*** Description: Single file - drop in - webserver's Document Root browser with responsive design. ***/
@@ -8,7 +8,7 @@
 
 $debug = array(); // collects varibles values
 $protection = 0; // initialize protection from outside hacks
-$version = 'v0.2.11 (17/07/2017)';
+$version = 'v0.2.11a (17/07/2017)';
 
 /* change this to display variables for troubleshooting */
 $troubleshooting = false;
@@ -829,6 +829,9 @@ $debug['alert'] = $alert;
 			.popover-content > p {
 				text-align: justify;
 			}
+			.email_footer {
+				cursor: pointer;
+			}
 		</style>
 		<title>PHP Drop2Browse</title>
 	</head>
@@ -899,7 +902,7 @@ if ($alert == true) {
 			<div class="container theme-showcase">
 				<nav class="navbar navbar-default navbar-static-bottom">
 					<div class="container position_footer">
-						<small><a href="https://github.com/bartaszili/PHP-Drop2Browse" target="_blank">PHP Drop2Browse</a> &nbsp; <small class="text-muted"><?php echo $version; ?></small> &nbsp; by&nbsp;<span tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-container="body" data-content="<a href='mailto:bartaszili@gmail.com'>bartaszili@gmail.com</a>"><u>Szil&aacute;rd&nbsp;Barta</u></span> &nbsp; <small class="text-muted">(Free&nbsp;software, <a href="https://www.gnu.org/licenses/gpl.txt" target="_blank">License</a>)</small></small>
+						<small><a href="https://github.com/bartaszili/PHP-Drop2Browse" target="_blank">PHP Drop2Browse</a> &nbsp; <small class="text-muted"><?php echo $version; ?></small> &nbsp; by&nbsp;<span tabindex="0" class="email_footer" data-toggle="popover" data-trigger="focus" data-placement="top" data-html="true" data-container="body" data-content="<a href='mailto:bartaszili@gmail.com'>bartaszili@gmail.com</a>"><u>Szil&aacute;rd&nbsp;Barta</u></span> &nbsp; <small class="text-muted">(Free&nbsp;software, <a href="https://www.gnu.org/licenses/gpl.txt" target="_blank">License</a>)</small></small>
 					</div>
 				</nav>
 			</div>
