@@ -569,26 +569,26 @@ $html_filters = '
 										<form class="navbar-form" action="'.$_SERVER['PHP_SELF'].'" method="post">
 											<div class="col-xs-6 col-sm-6">
 											<div class="form-group">
-												<label for="form_filters_dpr"><abbr title="Directory">Dir</abbr> premissions</label>
+												<label for="form_filters_dpr"><small><abbr title="Directory">Dir</abbr> premissions</small></label>
 												<input type="text" name="form_filters_dpr" id="form_filters_dpr" class="form_filters ';
 if($inputError1 == true) { $html_filters .= 'form-control text-right inputError'; } else { $html_filters .= 'form-control text-right'; }
 $html_filters .= '" value="'.$form_dpr.'" />
 											</div>
 											<div class="form-group">
-												<label for="form_filters_fpr">File premissions</label>
+												<label for="form_filters_fpr"><small>File premissions</small></label>
 												<input type="text" name="form_filters_fpr" id="form_filters_fpr" class="form_filters ';
 if($inputError2 == true) { $html_filters .= 'form-control text-right inputError'; } else { $html_filters .= 'form-control text-right'; }
 $html_filters .= '" value="'.$form_fpr.'" />
 											</div></div>
 											<div class="col-xs-6 col-sm-6">
 											<div class="form-group">
-												<label for="form_filters_uid">User ID</label>
+												<label for="form_filters_uid"><small>User ID</small></label>
 												<input type="text" name="form_filters_uid" id="form_filters_uid" class="form_filters ';
 if($inputError3 == true) { $html_filters .= 'form-control text-right inputError'; } else { $html_filters .= 'form-control text-right'; }
 $html_filters .= '" value="'.$form_uid.'" />
 											</div>
 											<div class="form-group">
-												<label for="form_filters_gid">Group ID</label>
+												<label for="form_filters_gid"><small>Group ID</small></label>
 												<input type="text" name="form_filters_gid" id="form_filters_gid" class="form_filters ';
 if($inputError4 == true) { $html_filters .= 'form-control text-right inputError'; } else { $html_filters .= 'form-control text-right'; }
 $html_filters .= '" value="'.$form_gid.'" />
