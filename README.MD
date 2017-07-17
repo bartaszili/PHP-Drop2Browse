@@ -24,7 +24,7 @@ GNU GPLv3, https://www.gnu.org/licenses/gpl.txt
 
 **17.07.2017: New release v0.2.11**
 - new filtering function
-- code improvements to pass w3school validation
+- code improvements to pass https://validator.w3.org HTML5 validation
 
 **13.06.2017: Just released v0.2.2 on github**
 
